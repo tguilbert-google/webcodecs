@@ -3,10 +3,12 @@
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
   <title>AV1 WebCodecs Registration</title>
-  <link href="https://www.w3.org/StyleSheets/TR/2016/W3C-ED" rel="stylesheet" type="text/css">
-  <meta content="Bikeshed version d7036035b, updated Fri Oct 8 17:07:11 2021 -0700" name="generator">
+  <meta content="ED" name="w3c-status">
+  <link href="https://www.w3.org/StyleSheets/TR/2021/W3C-ED" rel="stylesheet">
+  <link href="https://www.w3.org/2008/site/images/favicon.ico" rel="icon">
+  <meta content="Bikeshed version fb1e763a4, updated Tue Mar 1 13:13:50 2022 -0800" name="generator">
   <link href="https://www.w3.org/TR/webcodecs-av1-codec-registration/" rel="canonical">
-  <meta content="f13d044c05c574ba98103947703bb1dbeff66d53" name="document-revision">
+  <meta content="f0d7a730d5f90d557299b41759fa815cc852d5c8" name="document-revision">
 <style>/* style-autolinks */
 
 .css.css, .property.property, .descriptor.descriptor {
@@ -449,40 +451,41 @@ dfn > a.self-link::before      { content: "#"; }
 }</style>
  <body class="h-entry">
   <div class="head">
-   <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C" width="72"> </a> </p>
+   <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72"> </a> </p>
    <h1 class="p-name no-ref" id="title">AV1 WebCodecs Registration</h1>
-   <h2 class="no-num no-toc no-ref heading settled" id="profile-and-date"><span class="content">Editor’s Draft, <time class="dt-updated" datetime="2021-10-21">21 October 2021</time></span></h2>
-   <div data-fill-with="spec-metadata">
-    <dl>
-     <dt>This version:
-     <dd><a class="u-url" href="https://w3c.github.io/webcodecs/av1_codec_registration.html">https://w3c.github.io/webcodecs/av1_codec_registration.html</a>
-     <dt>Latest published version:
-     <dd><a href="https://www.w3.org/TR/webcodecs-av1-codec-registration/">https://www.w3.org/TR/webcodecs-av1-codec-registration/</a>
-     <dt>Issue Tracking:
-     <dd><a href="https://github.com/w3c/webcodecs/issues/">GitHub</a>
-     <dt class="editor">Editors:
-     <dd class="editor p-author h-card vcard" data-editor-id="114832"><span class="p-name fn">Chris Cunningham</span> (<a class="p-org org" href="https://www.google.com/">Google Inc.</a>)
-     <dd class="editor p-author h-card vcard" data-editor-id="62410"><span class="p-name fn">Paul Adenot</span> (<a class="p-org org" href="https://www.mozilla.org/">Mozilla</a>)
-     <dd class="editor p-author h-card vcard" data-editor-id="65611"><span class="p-name fn">Bernard Aboba</span> (<a class="p-org org" href="https://www.microsoft.com/">Microsoft Corporation</a>)
-     <dt>Participate:
-     <dd><a href="https://github.com/w3c/webcodecs">Git Repository.</a>
-     <dd><a href="https://github.com/w3c/webcodecs/issues/new">File an issue.</a>
-     <dt>Version History:
-     <dd><a href="https://github.com/w3c/webcodecs/commits">https://github.com/w3c/webcodecs/commits</a>
-    </dl>
-   </div>
+   <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">Editor’s Draft</a>, <time class="dt-updated" datetime="2022-05-16">16 May 2022</time></p>
+   <details open>
+    <summary>More details about this document</summary>
+    <div data-fill-with="spec-metadata">
+     <dl>
+      <dt>This version:
+      <dd><a class="u-url" href="https://w3c.github.io/webcodecs/av1_codec_registration.html">https://w3c.github.io/webcodecs/av1_codec_registration.html</a>
+      <dt>Latest published version:
+      <dd><a href="https://www.w3.org/TR/webcodecs-av1-codec-registration/">https://www.w3.org/TR/webcodecs-av1-codec-registration/</a>
+      <dt>Feedback:
+      <dd><a href="https://github.com/w3c/webcodecs/issues/">GitHub</a>
+      <dt class="editor">Editors:
+      <dd class="editor p-author h-card vcard" data-editor-id="114832"><span class="p-name fn">Chris Cunningham</span> (<a class="p-org org" href="https://www.google.com/">Google Inc.</a>)
+      <dd class="editor p-author h-card vcard" data-editor-id="62410"><span class="p-name fn">Paul Adenot</span> (<a class="p-org org" href="https://www.mozilla.org/">Mozilla</a>)
+      <dd class="editor p-author h-card vcard" data-editor-id="65611"><span class="p-name fn">Bernard Aboba</span> (<a class="p-org org" href="https://www.microsoft.com/">Microsoft Corporation</a>)
+      <dt>Participate:
+      <dd><a href="https://github.com/w3c/webcodecs">Git Repository.</a>
+      <dd><a href="https://github.com/w3c/webcodecs/issues/new">File an issue.</a>
+      <dt>Version History:
+      <dd><a href="https://github.com/w3c/webcodecs/commits">https://github.com/w3c/webcodecs/commits</a>
+     </dl>
+    </div>
+   </details>
    <div data-fill-with="warning"></div>
-   <p class="copyright" data-fill-with="copyright"><a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> © 2021 <a href="https://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup> (<a href="https://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="https://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="https://www.keio.ac.jp/">Keio</a>, <a href="https://ev.buaa.edu.cn/">Beihang</a>). W3C <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, <a href="https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and <a href="https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document" rel="license">permissive document license</a> rules apply. </p>
+   <p class="copyright" data-fill-with="copyright"><a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> © 2022 <a href="https://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup> (<a href="https://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="https://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="https://www.keio.ac.jp/">Keio</a>, <a href="https://ev.buaa.edu.cn/">Beihang</a>). W3C <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, <a href="https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and <a href="https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document" rel="license">permissive document license</a> rules apply. </p>
    <hr title="Separator for header">
   </div>
   <div class="p-summary" data-fill-with="abstract">
    <h2 class="no-num no-toc no-ref heading settled" id="abstract"><span class="content">Abstract</span></h2>
    <p>This registration is entered into the <a data-link-type="biblio" href="#biblio-webcodecs-codec-registry">[webcodecs-codec-registry]</a>.
 
-    It describes, for AV1, the (1) fully qualified codec strings, (2)
-    the <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#dom-videodecoderconfig-description" id="ref-for-dom-videodecoderconfig-description">VideoDecoderConfig.description</a></code> bytes, (3) the codec-specific
-    extensions to <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#dictdef-videoencoderconfig" id="ref-for-dictdef-videoencoderconfig">VideoEncoderConfig</a></code>, (4) the <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#encodedvideochunk" id="ref-for-encodedvideochunk">EncodedVideoChunk</a></code> <a data-link-type="dfn" href="https://w3c.github.io/webcodecs/#dom-encodedvideochunk-internal-data-slot" id="ref-for-dom-encodedvideochunk-internal-data-slot">[[internal data]]</a> bytes, and (5)
-    the meaning of <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#encodedvideochunk" id="ref-for-encodedvideochunk①">EncodedVideoChunk</a></code> <a data-link-type="dfn" href="https://w3c.github.io/webcodecs/#dom-encodedvideochunk-type-slot" id="ref-for-dom-encodedvideochunk-type-slot">[[type]]</a>.</p>
+    It describes, for AV1, the (1) fully qualified codec strings,
+    (2) the codec-specific <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#encodedvideochunk" id="ref-for-encodedvideochunk">EncodedVideoChunk</a></code> <a data-link-type="dfn" href="https://w3c.github.io/webcodecs/#dom-encodedvideochunk-internal-data-slot" id="ref-for-dom-encodedvideochunk-internal-data-slot">[[internal data]]</a> bytes, (3) the <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#dom-videodecoderconfig-description" id="ref-for-dom-videodecoderconfig-description">VideoDecoderConfig.description</a></code> bytes, and (4) the values of <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#encodedvideochunk" id="ref-for-encodedvideochunk①">EncodedVideoChunk</a></code> <a data-link-type="dfn" href="https://w3c.github.io/webcodecs/#dom-encodedvideochunk-type-slot" id="ref-for-dom-encodedvideochunk-type-slot">[[type]]</a>.</p>
    <p>The registration is not intended to include any information on whether a
 
     codec format is encumbered by intellectual property claims. Implementers and
@@ -491,19 +494,17 @@ dfn > a.self-link::before      { content: "#"; }
     WebCodecs are not required to support the AV1 codec.</p>
    <p>This registration is non-normative.</p>
   </div>
-  <h2 class="no-num no-toc no-ref heading settled" id="status"><span class="content">Status of this document</span></h2>
+  <h2 class="no-num no-toc no-ref heading settled" id="sotd"><span class="content">Status of this document</span></h2>
   <div data-fill-with="status">
-   <p> <em>This section describes the status of this document at the time of its publication. Other documents may supersede this document. A list of current <abbr title="World Wide Web Consortium">W3C</abbr> publications and the latest revision of this technical report can be found in the <a href="https://www.w3.org/TR/"><abbr title="World Wide Web Consortium">W3C</abbr> technical reports index</a> at https://www.w3.org/TR/.</em> </p>
+   <p> <em>This section describes the status of this document at the time of its publication. A list of current <abbr title="World Wide Web Consortium">W3C</abbr> publications and the latest revision of this technical report can be found in the <a href="https://www.w3.org/TR/"><abbr title="World Wide Web Consortium">W3C</abbr> technical reports index</a> at https://www.w3.org/TR/.</em> </p>
    <p> Feedback and comments on this specification are welcome. <a href="https://github.com/w3c/webcodecs/issues">GitHub Issues</a> are preferred for discussion on this specification. Alternatively, you can send comments to the Media Working Group’s mailing-list, <a href="mailto:public-media-wg@w3.org">public-media-wg@w3.org</a> (<a href="https://lists.w3.org/Archives/Public/public-media-wg/">archives</a>).
   This draft highlights some of the pending issues that are still to be discussed in the working group.
   No decision has been taken on the outcome of these issues including whether they are valid. </p>
-   <p> This document was published by the <a href="https://www.w3.org/media-wg/">Media Working Group</a> as an Editor’s Draft. </p>
-   <p> Publication as an Editor’s Draft does not imply endorsement by the <abbr title="World Wide Web Consortium">W3C</abbr> Membership. </p>
-   <p> This is a draft document and may be updated, replaced or obsoleted by other documents at any time.
-  It is inappropriate to cite this document as other than work in progress. </p>
-   <p> This document was produced by a group operating under the <a class="css" data-link-type="property" href="https://www.w3.org/Consortium/Patent-Policy/" id="sotd_patent">W3C Patent Policy</a>.
-  The group does not expect this document to become a <abbr title="World Wide Web Consortium">W3C</abbr> Recommendation. <abbr title="World Wide Web Consortium">W3C</abbr> maintains a <a href="https://www.w3.org/groups/wg/media/ipr" rel="disclosure">public list of any patent disclosures</a> made in connection with the deliverables of the group; that page also includes instructions for disclosing a patent. An individual who has actual knowledge of a patent which the individual believes contains <a href="https://www.w3.org/Consortium/Patent-Policy/#def-essential">Essential Claim(s)</a> must disclose the information in accordance with <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Disclosure">section 6 of the <abbr title="World Wide Web Consortium">W3C</abbr> Patent Policy</a>. </p>
-   <p> This document is governed by the <a href="https://www.w3.org/2020/Process-20200915/" id="w3c_process_revision">15 September 2020 W3C Process Document</a>. </p>
+   <p> This document was published by the <a href="https://www.w3.org/groups/wg/media">Media Working Group</a> as an Editor’s Draft.
+  The group does not expect this document to become a <abbr title="World Wide Web Consortium">W3C</abbr> Recommendation. </p>
+   <p> Publication as an Editor’s Draft does not imply endorsement by <abbr title="World Wide Web Consortium">W3C</abbr> and its Members. </p>
+   <p data-deliverer="115198"> The <a href="https://www.w3.org/Consortium/Patent-Policy/">W3C Patent Policy</a> does not carry any licensing requirements or commitments on this document. </p>
+   <p> This document is governed by the <a href="https://www.w3.org/2021/Process-20211102/" id="w3c_process_revision">2 November 2021 W3C Process Document</a>. </p>
    <p></p>
   </div>
   <div data-fill-with="at-risk"></div>
@@ -511,10 +512,16 @@ dfn > a.self-link::before      { content: "#"; }
    <h2 class="no-num no-toc no-ref" id="contents">Table of Contents</h2>
    <ol class="toc" role="directory">
     <li><a href="#fully-qualified-codec-strings"><span class="secno">1</span> <span class="content">Fully qualified codec strings</span></a>
-    <li><a href="#videodecoderconfig-description"><span class="secno">2</span> <span class="content">VideoDecoderConfig description</span></a>
-    <li><a href="#encodedvideochunk-data"><span class="secno">3</span> <span class="content">EncodedVideoChunk data</span></a>
+    <li><a href="#encodedvideochunk-data"><span class="secno">2</span> <span class="content">EncodedVideoChunk data</span></a>
+    <li><a href="#videodecoderconfig-description"><span class="secno">3</span> <span class="content">VideoDecoderConfig description</span></a>
     <li><a href="#encodedvideochunk-type"><span class="secno">4</span> <span class="content">EncodedVideoChunk type</span></a>
     <li><a href="#privacy-and-security-considerations"><span class="secno">5</span> <span class="content">Privacy and Security Considerations</span></a>
+    <li>
+     <a href="#w3c-conformance"><span class="secno"></span> <span class="content">Conformance</span></a>
+     <ol class="toc">
+      <li><a href="#w3c-conventions"><span class="secno"></span> <span class="content">Document conventions</span></a>
+      <li><a href="#w3c-conformant-algorithms"><span class="secno"></span> <span class="content">Conformant Algorithms</span></a>
+     </ol>
     <li>
      <a href="#index"><span class="secno"></span> <span class="content">Index</span></a>
      <ol class="toc">
@@ -532,27 +539,67 @@ dfn > a.self-link::before      { content: "#"; }
    <h2 class="heading settled" data-level="1" id="fully-qualified-codec-strings"><span class="secno">1. </span><span class="content">Fully qualified codec strings</span><a class="self-link" href="#fully-qualified-codec-strings"></a></h2>
    <p>The codec string begins with the prefix <code>"av01."</code>, followed by a variable length
 suffix as described in Section 5 of <a data-link-type="biblio" href="#biblio-av1-isobmff">[AV1-ISOBMFF]</a>.</p>
-   <h2 class="heading settled" data-level="2" id="videodecoderconfig-description"><span class="secno">2. </span><span class="content">VideoDecoderConfig description</span><a class="self-link" href="#videodecoderconfig-description"></a></h2>
-   <p><code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#dom-videodecoderconfig-description" id="ref-for-dom-videodecoderconfig-description①">VideoDecoderConfig.description</a></code> is not used for this codec.</p>
-   <h2 class="heading settled" data-level="3" id="encodedvideochunk-data"><span class="secno">3. </span><span class="content">EncodedVideoChunk data</span><a class="self-link" href="#encodedvideochunk-data"></a></h2>
+   <h2 class="heading settled" data-level="2" id="encodedvideochunk-data"><span class="secno">2. </span><span class="content">EncodedVideoChunk data</span><a class="self-link" href="#encodedvideochunk-data"></a></h2>
    <p><code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#encodedvideochunk" id="ref-for-encodedvideochunk②">EncodedVideoChunk</a></code> <a data-link-type="dfn" href="https://w3c.github.io/webcodecs/#dom-encodedvideochunk-internal-data-slot" id="ref-for-dom-encodedvideochunk-internal-data-slot①">[[internal data]]</a> is expected to be
-either an "open bit-stream unit" (OBU) or "low-overhead OBU" as described in
-Section 5 of <a data-link-type="biblio" href="#biblio-av1">[AV1]</a>.</p>
+data compliant to the "low-overhead bitstream format" as described in Section 5
+of <a data-link-type="biblio" href="#biblio-av1">[AV1]</a>.</p>
+   <h2 class="heading settled" data-level="3" id="videodecoderconfig-description"><span class="secno">3. </span><span class="content">VideoDecoderConfig description</span><a class="self-link" href="#videodecoderconfig-description"></a></h2>
+   <p><code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#dom-videodecoderconfig-description" id="ref-for-dom-videodecoderconfig-description①">VideoDecoderConfig.description</a></code> is not used for this codec.</p>
    <h2 class="heading settled" data-level="4" id="encodedvideochunk-type"><span class="secno">4. </span><span class="content">EncodedVideoChunk type</span><a class="self-link" href="#encodedvideochunk-type"></a></h2>
    <p>If an <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#encodedvideochunk" id="ref-for-encodedvideochunk③">EncodedVideoChunk</a></code>'s <a data-link-type="dfn" href="https://w3c.github.io/webcodecs/#dom-encodedvideochunk-type-slot" id="ref-for-dom-encodedvideochunk-type-slot①">[[type]]</a> is <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#dom-encodedvideochunktype-key" id="ref-for-dom-encodedvideochunktype-key">key</a></code>, then the <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#encodedvideochunk" id="ref-for-encodedvideochunk④">EncodedVideoChunk</a></code> is expected to
 contain a frame with a <code>frame_type</code> of <code>KEY_FRAME</code> as defined in Section
 6.8.2 of <a data-link-type="biblio" href="#biblio-av1">[AV1]</a>.</p>
    <h2 class="heading settled" data-level="5" id="privacy-and-security-considerations"><span class="secno">5. </span><span class="content">Privacy and Security Considerations</span><a class="self-link" href="#privacy-and-security-considerations"></a></h2>
    <p>Please refer to the <a href="https://www.w3.org/TR/webcodecs/#privacy-considerations">Privacy Considerations</a> and <a href="https://www.w3.org/TR/webcodecs/#security-considerations">Security Considerations</a> sections in <a data-link-type="biblio" href="#biblio-webcodecs">[WEBCODECS]</a>.</p>
-   <p id="back-to-top" role="navigation"><a href="#toc"><abbr title="Back to Top">↑</abbr></a></p>
-<script src="https://www.w3.org/scripts/TR/2016/fixup.js"></script>
   </main>
+  <div data-fill-with="conformance">
+   <h2 class="no-ref no-num heading settled" id="w3c-conformance"><span class="content">Conformance</span><a class="self-link" href="#w3c-conformance"></a></h2>
+   <h3 class="no-ref no-num heading settled" id="w3c-conventions"><span class="content">Document conventions</span><a class="self-link" href="#w3c-conventions"></a></h3>
+   <p>Conformance requirements are expressed
+    with a combination of descriptive assertions
+    and RFC 2119 terminology.
+    The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL”
+    in the normative parts of this document
+    are to be interpreted as described in RFC 2119.
+    However, for readability,
+    these words do not appear in all uppercase letters in this specification. </p>
+   <p>All of the text of this specification is normative
+    except sections explicitly marked as non-normative, examples, and notes. <a data-link-type="biblio" href="#biblio-rfc2119">[RFC2119]</a> </p>
+   <p>Examples in this specification are introduced with the words “for example”
+    or are set apart from the normative text
+    with <code>class="example"</code>,
+    like this: </p>
+   <div class="example" id="w3c-example">
+    <a class="self-link" href="#w3c-example"></a> 
+    <p>This is an example of an informative example. </p>
+   </div>
+   <p>Informative notes begin with the word “Note”
+    and are set apart from the normative text
+    with <code>class="note"</code>,
+    like this: </p>
+   <p class="note" role="note">Note, this is an informative note. </p>
+   <h3 class="no-ref no-num heading settled" id="w3c-conformant-algorithms"><span class="content">Conformant Algorithms</span><a class="self-link" href="#w3c-conformant-algorithms"></a></h3>
+   <p>Requirements phrased in the imperative as part of algorithms
+    (such as "strip any leading space characters"
+    or "return false and abort these steps")
+    are to be interpreted with the meaning of the key word
+    ("must", "should", "may", etc)
+    used in introducing the algorithm. </p>
+   <p>Conformance requirements phrased as algorithms or specific steps
+    can be implemented in any manner,
+    so long as the end result is equivalent.
+    In particular, the algorithms defined in this specification
+    are intended to be easy to understand
+    and are not intended to be performant.
+    Implementers are encouraged to optimize. </p>
+  </div>
+<script src="https://www.w3.org/scripts/TR/2021/fixup.js"></script>
   <h2 class="no-num no-ref heading settled" id="index"><span class="content">Index</span><a class="self-link" href="#index"></a></h2>
   <aside class="dfn-panel" data-for="term-for-encodedvideochunk">
    <a href="https://w3c.github.io/webcodecs/#encodedvideochunk">https://w3c.github.io/webcodecs/#encodedvideochunk</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-encodedvideochunk">Unnumbered Section</a> <a href="#ref-for-encodedvideochunk①">(2)</a>
-    <li><a href="#ref-for-encodedvideochunk②">3. EncodedVideoChunk data</a>
+    <li><a href="#ref-for-encodedvideochunk②">2. EncodedVideoChunk data</a>
     <li><a href="#ref-for-encodedvideochunk③">4. EncodedVideoChunk type</a> <a href="#ref-for-encodedvideochunk④">(2)</a>
    </ul>
   </aside>
@@ -560,20 +607,14 @@ contain a frame with a <code>frame_type</code> of <code>KEY_FRAME</code> as defi
    <a href="https://w3c.github.io/webcodecs/#dom-videodecoderconfig-description">https://w3c.github.io/webcodecs/#dom-videodecoderconfig-description</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-dom-videodecoderconfig-description">Unnumbered Section</a>
-    <li><a href="#ref-for-dom-videodecoderconfig-description①">2. VideoDecoderConfig description</a>
-   </ul>
-  </aside>
-  <aside class="dfn-panel" data-for="term-for-dictdef-videoencoderconfig">
-   <a href="https://w3c.github.io/webcodecs/#dictdef-videoencoderconfig">https://w3c.github.io/webcodecs/#dictdef-videoencoderconfig</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-dictdef-videoencoderconfig">Unnumbered Section</a>
+    <li><a href="#ref-for-dom-videodecoderconfig-description①">3. VideoDecoderConfig description</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-dom-encodedvideochunk-internal-data-slot">
    <a href="https://w3c.github.io/webcodecs/#dom-encodedvideochunk-internal-data-slot">https://w3c.github.io/webcodecs/#dom-encodedvideochunk-internal-data-slot</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-dom-encodedvideochunk-internal-data-slot">Unnumbered Section</a>
-    <li><a href="#ref-for-dom-encodedvideochunk-internal-data-slot①">3. EncodedVideoChunk data</a>
+    <li><a href="#ref-for-dom-encodedvideochunk-internal-data-slot①">2. EncodedVideoChunk data</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-dom-encodedvideochunk-type-slot">
@@ -596,7 +637,6 @@ contain a frame with a <code>frame_type</code> of <code>KEY_FRAME</code> as defi
     <ul>
      <li><span class="dfn-paneled" id="term-for-encodedvideochunk">EncodedVideoChunk</span>
      <li><span class="dfn-paneled" id="term-for-dom-videodecoderconfig-description">VideoDecoderConfig.description</span>
-     <li><span class="dfn-paneled" id="term-for-dictdef-videoencoderconfig">VideoEncoderConfig</span>
      <li><span class="dfn-paneled" id="term-for-dom-encodedvideochunk-internal-data-slot">[[internal data]]</span>
      <li><span class="dfn-paneled" id="term-for-dom-encodedvideochunk-type-slot">[[type]]</span>
      <li><span class="dfn-paneled" id="term-for-dom-encodedvideochunktype-key">key</span>
@@ -605,8 +645,10 @@ contain a frame with a <code>frame_type</code> of <code>KEY_FRAME</code> as defi
   <h2 class="no-num no-ref heading settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
   <h3 class="no-num no-ref heading settled" id="normative"><span class="content">Normative References</span><a class="self-link" href="#normative"></a></h3>
   <dl>
+   <dt id="biblio-rfc2119">[RFC2119]
+   <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
    <dt id="biblio-webcodecs">[WEBCODECS]
-   <dd>Chris Cunningham; Paul Adenot; Bernard Aboba. <a href="https://www.w3.org/TR/webcodecs/"><cite>WebCodecs</cite></a>. 20 October 2021. WD. URL: <a href="https://www.w3.org/TR/webcodecs/">https://www.w3.org/TR/webcodecs/</a>
+   <dd>Chris Cunningham; Paul Adenot; Bernard Aboba. <a href="https://www.w3.org/TR/webcodecs/"><cite>WebCodecs</cite></a>. 16 February 2022. WD. URL: <a href="https://www.w3.org/TR/webcodecs/">https://www.w3.org/TR/webcodecs/</a>
   </dl>
   <h3 class="no-num no-ref heading settled" id="informative"><span class="content">Informative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
@@ -615,7 +657,7 @@ contain a frame with a <code>frame_type</code> of <code>KEY_FRAME</code> as defi
    <dt id="biblio-av1-isobmff">[AV1-ISOBMFF]
    <dd><a href="https://aomediacodec.github.io/av1-isobmff/"><cite>AV1 Codec ISO Media File Format Binding</cite></a>. URL: <a href="https://aomediacodec.github.io/av1-isobmff/">https://aomediacodec.github.io/av1-isobmff/</a>
    <dt id="biblio-webcodecs-codec-registry">[WEBCODECS-CODEC-REGISTRY]
-   <dd>Chris Cunningham; Paul Adenot; Bernard Aboba. <a href="https://www.w3.org/TR/webcodecs-codec-registry/"><cite>WebCodecs Codec Registry</cite></a>. 20 October 2021. WD. URL: <a href="https://www.w3.org/TR/webcodecs-codec-registry/">https://www.w3.org/TR/webcodecs-codec-registry/</a>
+   <dd>Chris Cunningham; Paul Adenot; Bernard Aboba. <a href="https://www.w3.org/TR/webcodecs-codec-registry/"><cite>WebCodecs Codec Registry</cite></a>. 21 March 2022. NOTE. URL: <a href="https://www.w3.org/TR/webcodecs-codec-registry/">https://www.w3.org/TR/webcodecs-codec-registry/</a>
   </dl>
 <script>/* script-dfn-panel */
 
