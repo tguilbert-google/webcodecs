@@ -3,10 +3,12 @@
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
   <title>WebCodecs Codec Registry</title>
-  <link href="https://www.w3.org/StyleSheets/TR/2016/W3C-ED" rel="stylesheet" type="text/css">
-  <meta content="Bikeshed version d7036035b, updated Fri Oct 8 17:07:11 2021 -0700" name="generator">
+  <meta content="ED" name="w3c-status">
+  <link href="https://www.w3.org/StyleSheets/TR/2021/W3C-ED" rel="stylesheet">
+  <link href="https://www.w3.org/2008/site/images/favicon.ico" rel="icon">
+  <meta content="Bikeshed version fb1e763a4, updated Tue Mar 1 13:13:50 2022 -0800" name="generator">
   <link href="https://www.w3.org/TR/webcodecs-codec-registry/" rel="canonical">
-  <meta content="f13d044c05c574ba98103947703bb1dbeff66d53" name="document-revision">
+  <meta content="f0d7a730d5f90d557299b41759fa815cc852d5c8" name="document-revision">
 <style>/* style-autolinks */
 
 .css.css, .property.property, .descriptor.descriptor {
@@ -449,31 +451,33 @@ dfn > a.self-link::before      { content: "#"; }
 }</style>
  <body class="h-entry">
   <div class="head">
-   <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C" width="72"> </a> </p>
+   <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72"> </a> </p>
    <h1 class="p-name no-ref" id="title">WebCodecs Codec Registry</h1>
-   <h2 class="no-num no-toc no-ref heading settled" id="profile-and-date"><span class="content">Editor’s Draft, <time class="dt-updated" datetime="2021-10-21">21 October 2021</time></span></h2>
-   <div data-fill-with="spec-metadata">
-    <dl>
-     <dt>This version:
-     <dd><a class="u-url" href="https://w3c.github.io/webcodecs/codec_registry.html">https://w3c.github.io/webcodecs/codec_registry.html</a>
-     <dt>Latest published version:
-     <dd><a href="https://www.w3.org/TR/webcodecs-codec-registry/">https://www.w3.org/TR/webcodecs-codec-registry/</a>
-     <dt>Issue Tracking:
-     <dd><a href="https://github.com/w3c/webcodecs/issues/">GitHub</a>
-     <dd><a href="#issues-index">Inline In Spec</a>
-     <dt class="editor">Editors:
-     <dd class="editor p-author h-card vcard" data-editor-id="114832"><span class="p-name fn">Chris Cunningham</span> (<a class="p-org org" href="https://www.google.com/">Google Inc.</a>)
-     <dd class="editor p-author h-card vcard" data-editor-id="62410"><span class="p-name fn">Paul Adenot</span> (<a class="p-org org" href="https://www.mozilla.org/">Mozilla</a>)
-     <dd class="editor p-author h-card vcard" data-editor-id="65611"><span class="p-name fn">Bernard Aboba</span> (<a class="p-org org" href="https://www.microsoft.com/">Microsoft Corporation</a>)
-     <dt>Participate:
-     <dd><a href="https://github.com/w3c/webcodecs">Git Repository.</a>
-     <dd><a href="https://github.com/w3c/webcodecs/issues/new">File an issue.</a>
-     <dt>Version History:
-     <dd><a href="https://github.com/w3c/webcodecs/commits">https://github.com/w3c/webcodecs/commits</a>
-    </dl>
-   </div>
+   <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">Editor’s Draft</a>, <time class="dt-updated" datetime="2022-05-16">16 May 2022</time></p>
+   <details open>
+    <summary>More details about this document</summary>
+    <div data-fill-with="spec-metadata">
+     <dl>
+      <dt>This version:
+      <dd><a class="u-url" href="https://w3c.github.io/webcodecs/codec_registry.html">https://w3c.github.io/webcodecs/codec_registry.html</a>
+      <dt>Latest published version:
+      <dd><a href="https://www.w3.org/TR/webcodecs-codec-registry/">https://www.w3.org/TR/webcodecs-codec-registry/</a>
+      <dt>Feedback:
+      <dd><a href="https://github.com/w3c/webcodecs/issues/">GitHub</a>
+      <dt class="editor">Editors:
+      <dd class="editor p-author h-card vcard" data-editor-id="114832"><span class="p-name fn">Chris Cunningham</span> (<a class="p-org org" href="https://www.google.com/">Google Inc.</a>)
+      <dd class="editor p-author h-card vcard" data-editor-id="62410"><span class="p-name fn">Paul Adenot</span> (<a class="p-org org" href="https://www.mozilla.org/">Mozilla</a>)
+      <dd class="editor p-author h-card vcard" data-editor-id="65611"><span class="p-name fn">Bernard Aboba</span> (<a class="p-org org" href="https://www.microsoft.com/">Microsoft Corporation</a>)
+      <dt>Participate:
+      <dd><a href="https://github.com/w3c/webcodecs">Git Repository.</a>
+      <dd><a href="https://github.com/w3c/webcodecs/issues/new">File an issue.</a>
+      <dt>Version History:
+      <dd><a href="https://github.com/w3c/webcodecs/commits">https://github.com/w3c/webcodecs/commits</a>
+     </dl>
+    </div>
+   </details>
    <div data-fill-with="warning"></div>
-   <p class="copyright" data-fill-with="copyright"><a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> © 2021 <a href="https://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup> (<a href="https://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="https://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="https://www.keio.ac.jp/">Keio</a>, <a href="https://ev.buaa.edu.cn/">Beihang</a>). W3C <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, <a href="https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and <a href="https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document" rel="license">permissive document license</a> rules apply. </p>
+   <p class="copyright" data-fill-with="copyright"><a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> © 2022 <a href="https://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup> (<a href="https://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="https://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="https://www.keio.ac.jp/">Keio</a>, <a href="https://ev.buaa.edu.cn/">Beihang</a>). W3C <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, <a href="https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and <a href="https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document" rel="license">permissive document license</a> rules apply. </p>
    <hr title="Separator for header">
   </div>
   <div class="p-summary" data-fill-with="abstract">
@@ -492,19 +496,17 @@ dfn > a.self-link::before      { content: "#"; }
     entry.</p>
    <p>This registry is non-normative.</p>
   </div>
-  <h2 class="no-num no-toc no-ref heading settled" id="status"><span class="content">Status of this document</span></h2>
+  <h2 class="no-num no-toc no-ref heading settled" id="sotd"><span class="content">Status of this document</span></h2>
   <div data-fill-with="status">
-   <p> <em>This section describes the status of this document at the time of its publication. Other documents may supersede this document. A list of current <abbr title="World Wide Web Consortium">W3C</abbr> publications and the latest revision of this technical report can be found in the <a href="https://www.w3.org/TR/"><abbr title="World Wide Web Consortium">W3C</abbr> technical reports index</a> at https://www.w3.org/TR/.</em> </p>
+   <p> <em>This section describes the status of this document at the time of its publication. A list of current <abbr title="World Wide Web Consortium">W3C</abbr> publications and the latest revision of this technical report can be found in the <a href="https://www.w3.org/TR/"><abbr title="World Wide Web Consortium">W3C</abbr> technical reports index</a> at https://www.w3.org/TR/.</em> </p>
    <p> Feedback and comments on this specification are welcome. <a href="https://github.com/w3c/webcodecs/issues">GitHub Issues</a> are preferred for discussion on this specification. Alternatively, you can send comments to the Media Working Group’s mailing-list, <a href="mailto:public-media-wg@w3.org">public-media-wg@w3.org</a> (<a href="https://lists.w3.org/Archives/Public/public-media-wg/">archives</a>).
   This draft highlights some of the pending issues that are still to be discussed in the working group.
   No decision has been taken on the outcome of these issues including whether they are valid. </p>
-   <p> This document was published by the <a href="https://www.w3.org/media-wg/">Media Working Group</a> as an Editor’s Draft. </p>
-   <p> Publication as an Editor’s Draft does not imply endorsement by the <abbr title="World Wide Web Consortium">W3C</abbr> Membership. </p>
-   <p> This is a draft document and may be updated, replaced or obsoleted by other documents at any time.
-  It is inappropriate to cite this document as other than work in progress. </p>
-   <p> This document was produced by a group operating under the <a class="css" data-link-type="property" href="https://www.w3.org/Consortium/Patent-Policy/" id="sotd_patent">W3C Patent Policy</a>.
-  The group does not expect this document to become a <abbr title="World Wide Web Consortium">W3C</abbr> Recommendation. <abbr title="World Wide Web Consortium">W3C</abbr> maintains a <a href="https://www.w3.org/groups/wg/media/ipr" rel="disclosure">public list of any patent disclosures</a> made in connection with the deliverables of the group; that page also includes instructions for disclosing a patent. An individual who has actual knowledge of a patent which the individual believes contains <a href="https://www.w3.org/Consortium/Patent-Policy/#def-essential">Essential Claim(s)</a> must disclose the information in accordance with <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Disclosure">section 6 of the <abbr title="World Wide Web Consortium">W3C</abbr> Patent Policy</a>. </p>
-   <p> This document is governed by the <a href="https://www.w3.org/2020/Process-20200915/" id="w3c_process_revision">15 September 2020 W3C Process Document</a>. </p>
+   <p> This document was published by the <a href="https://www.w3.org/groups/wg/media">Media Working Group</a> as an Editor’s Draft.
+  The group does not expect this document to become a <abbr title="World Wide Web Consortium">W3C</abbr> Recommendation. </p>
+   <p> Publication as an Editor’s Draft does not imply endorsement by <abbr title="World Wide Web Consortium">W3C</abbr> and its Members. </p>
+   <p data-deliverer="115198"> The <a href="https://www.w3.org/Consortium/Patent-Policy/">W3C Patent Policy</a> does not carry any licensing requirements or commitments on this document. </p>
+   <p> This document is governed by the <a href="https://www.w3.org/2021/Process-20211102/" id="w3c_process_revision">2 November 2021 W3C Process Document</a>. </p>
    <p></p>
   </div>
   <div data-fill-with="at-risk"></div>
@@ -527,41 +529,56 @@ dfn > a.self-link::before      { content: "#"; }
       <li><a href="#normative"><span class="secno"></span> <span class="content">Normative References</span></a>
       <li><a href="#informative"><span class="secno"></span> <span class="content">Informative References</span></a>
      </ol>
-    <li><a href="#issues-index"><span class="secno"></span> <span class="content">Issues Index</span></a>
    </ol>
   </nav>
   <main>
    <h2 class="heading settled" data-level="1" id="organization"><span class="secno">1. </span><span class="content">Organization</span><a class="self-link" href="#organization"></a></h2>
-   <p>This registry maintains a mapping between codec strings and definitions for (1)
-fully qualified codec string values, (2) codec-specific values for <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#dom-videodecoderconfig-description" id="ref-for-dom-videodecoderconfig-description">VideoDecoderConfig.description</a></code> and <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#dom-audiodecoderconfig-description" id="ref-for-dom-audiodecoderconfig-description">AudioDecoderConfig.description</a></code>, and (3) codec-specific members of
-the <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#video-encoder-config" id="ref-for-video-encoder-config">VideoEncoderConfig</a></code> and <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#audio-encoder-config" id="ref-for-audio-encoder-config">AudioEncoderConfig</a></code> dictionaries.</p>
+   <p>This registry maintains a mapping between codec strings and registration
+specifications as described below.</p>
    <h2 class="heading settled" data-level="2" id="registration-entry-requirements"><span class="secno">2. </span><span class="content">Registration Entry Requirements</span><a class="self-link" href="#registration-entry-requirements"></a></h2>
    <ol>
     <li data-md>
-     <p>Each entry must include a unique codec string and a common name string.</p>
+     <p>Each entry must include a unique codec string, a common name string, and a
+link to a public specification.</p>
     <li data-md>
-     <p>If the codec string contains a fixed prefix with variable suffix values, the
-suffix must be represented by an asterisk and the registration must link to
-a public specification describing how to fully qualify the variable portion
-of the string.</p>
+     <p>The codec string must be crafted as follows:</p>
+     <ol>
+      <li data-md>
+       <p>If the codec string contains a fixed prefix with variable suffix values,
+the suffix must be represented by an asterisk and the registration’s
+public specification must describe how to fully qualify the variable
+portion of the string.</p>
+      <li data-md>
+       <p>Otherwise, if the codec is recognized by multiple strings, a single
+preferred string should be listed and the registration’s specification
+must list the other allowed strings.</p>
+      <li data-md>
+       <p>Otherwise, the codec is identified by a simple fixed string.</p>
+     </ol>
     <li data-md>
-     <p>If the described codec requires that codec-specific bytes be provided as
-part of the <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#dom-videodecoderconfig-description" id="ref-for-dom-videodecoderconfig-description①">VideoDecoderConfig.description</a></code> or the <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#dom-audiodecoderconfig-description" id="ref-for-dom-audiodecoderconfig-description①">AudioDecoderConfig.description</a></code>, the registration must link to
-a public specification describing how to populate these fields.</p>
+     <p>Each registration’s specification must include a sequence of sections
+describing:</p>
+     <ol>
+      <li data-md>
+       <p>Recognized codec strings</p>
+      <li data-md>
+       <p><code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#encodedaudiochunk" id="ref-for-encodedaudiochunk">EncodedAudioChunk</a></code> or <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#encodedvideochunk" id="ref-for-encodedvideochunk">EncodedVideoChunk</a></code> internal data</p>
+      <li data-md>
+       <p><code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#dictdef-audiodecoderconfig" id="ref-for-dictdef-audiodecoderconfig">AudioDecoderConfig</a></code> or <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#dictdef-videodecoderconfig" id="ref-for-dictdef-videodecoderconfig">VideoDecoderConfig</a></code> description bytes</p>
+      <li data-md>
+       <p>Expectations for <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#encodedaudiochunk" id="ref-for-encodedaudiochunk①">EncodedAudioChunk</a></code> or <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#encodedvideochunk" id="ref-for-encodedvideochunk①">EncodedVideoChunk</a></code> <a data-link-type="dfn" href="https://w3c.github.io/webcodecs/#dom-encodedaudiochunk-type-slot" id="ref-for-dom-encodedaudiochunk-type-slot">[[type]]</a></p>
+     </ol>
     <li data-md>
-     <p>If the <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#audio-encoder-config" id="ref-for-audio-encoder-config①">AudioEncoderConfig</a></code> or <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#video-encoder-config" id="ref-for-video-encoder-config①">VideoEncoderConfig</a></code> dictionaries are extended with members specific to the described codec, the
-registration must link to a public specification describing how to populate
-these fields.</p>
+     <p>Where applicable, a registration specification may include a section
+describing extensions to <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#dictdef-videoencoderconfig" id="ref-for-dictdef-videoencoderconfig">VideoEncoderConfig</a></code> or <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/webcodecs/#dictdef-audioencoderconfig" id="ref-for-dictdef-audioencoderconfig">AudioEncoderConfig</a></code> dictionaries.</p>
     <li data-md>
      <p>Candidate entries must be announced by filing an issue in the <a href="https://github.com/w3c/webcodecs/issues/">WebCodecs GitHub issue tracker</a> so they can be discussed and evaluated for compliance before being added to
-the registry. If registry editors reach consensus to accept the candidate,
-a pull request should be drafted (either by editors or by the party
-requesting the candidate registration) to register the candidate. The
+the registry. If the Media Working Group reaches consensus to accept the
+candidate, a pull request should be drafted (either by editors or by the
+party requesting the candidate registration) to register the candidate. The
 registry editors will review and merge the pull request.</p>
    </ol>
    <h2 class="heading settled" data-level="3" id="audio-codec-registry"><span class="secno">3. </span><span class="content">Audio Codec Registry</span><a class="self-link" href="#audio-codec-registry"></a></h2>
-   <p class="issue" id="issue-40e365ce"><a class="self-link" href="#issue-40e365ce"></a> Several registrations contain TODOs which should be replaced with links
-    to public specifications covering the mentioned definitions.</p>
    <table class="data">
     <tbody>
      <tr>
@@ -571,39 +588,44 @@ registry editors will review and merge the pull request.</p>
      <tr>
       <td>flac
       <td>Flac
-      <td><a href="https://www.w3.org/TR/webcodecs-flac-codec-registration/">FLAC codec registration</a> <span>[WEBCODECS-FLAC-CODEC-REGISTRATION]</span>
+      <td><a href="https://www.w3.org/TR/webcodecs-flac-codec-registration/">FLAC codec registration</a> <a data-link-type="biblio" href="#biblio-webcodecs-flac-codec-registration">[WEBCODECS-FLAC-CODEC-REGISTRATION]</a>
      <tr>
       <td>mp3
       <td>MP3
       <td><a href="https://www.w3.org/TR/webcodecs-mp3-codec-registration/">MP3 WebCodecs
-      Registration</a> <span>[WEBCODECS-MP3-CODEC-REGISTRATION]</span>
+      Registration</a> <a data-link-type="biblio" href="#biblio-webcodecs-mp3-codec-registration">[WEBCODECS-MP3-CODEC-REGISTRATION]</a>
      <tr>
       <td>mp4a.*
       <td>AAC
       <td><a href="https://www.w3.org/TR/webcodecs-aac-codec-registration/">AAC WebCodecs
-      Registration</a> <span>[WEBCODECS-AAC-CODEC-REGISTRATION]</span>
+      Registration</a> <a data-link-type="biblio" href="#biblio-webcodecs-aac-codec-registration">[WEBCODECS-AAC-CODEC-REGISTRATION]</a>
      <tr>
       <td>opus
       <td>Opus
       <td><a href="https://www.w3.org/TR/webcodecs-opus-codec-registration/">Opus WebCodecs
-      Registration</a> <span>[WEBCODECS-OPUS-CODEC-REGISTRATION]</span>
+      Registration</a> <a data-link-type="biblio" href="#biblio-webcodecs-opus-codec-registration">[WEBCODECS-OPUS-CODEC-REGISTRATION]</a>
      <tr>
       <td>vorbis
       <td>Vorbis
       <td><a href="https://www.w3.org/TR/webcodecs-vorbis-codec-registration/">Vorbis WebCodecs
-      Registration</a> <span>[WEBCODECS-VORBIS-CODEC-REGISTRATION]</span>
+      Registration</a> <a data-link-type="biblio" href="#biblio-webcodecs-vorbis-codec-registration">[WEBCODECS-VORBIS-CODEC-REGISTRATION]</a>
      <tr>
       <td>ulaw
-      <td>PCM u-law
-      <td>N/A
+      <td>u-law PCM
+      <td><a href="https://www.w3.org/TR/webcodecs-ulaw-codec-registration/">u-law PCM WebCodecs
+      Registration</a> <a data-link-type="biblio" href="#biblio-webcodecs-ulaw-codec-registration">[WEBCODECS-ULAW-CODEC-REGISTRATION]</a>
      <tr>
       <td>alaw
-      <td>PCM a-law
-      <td>N/A
+      <td>A-law PCM
+      <td><a href="https://www.w3.org/TR/webcodecs-alaw-codec-registration/">A-law PCM WebCodecs
+      Registration</a> <a data-link-type="biblio" href="#biblio-webcodecs-alaw-codec-registration">[WEBCODECS-ALAW-CODEC-REGISTRATION]</a>
+     <tr>
+      <td>pcm-*
+      <td>Linear PCM
+      <td><a href="https://www.w3.org/TR/webcodecs-pcm-codec-registration/">Linear PCM WebCodecs
+      Registration</a> <a data-link-type="biblio" href="#biblio-webcodecs-pcm-codec-registration">[WEBCODECS-PCM-CODEC-REGISTRATION]</a>
    </table>
    <h2 class="heading settled" data-level="4" id="video-codec-registry"><span class="secno">4. </span><span class="content">Video Codec Registry</span><a class="self-link" href="#video-codec-registry"></a></h2>
-   <p class="issue" id="issue-40e365ce①"><a class="self-link" href="#issue-40e365ce①"></a> Several registrations contain TODOs which should be replaced with links
-    to public specifications covering the mentioned definitions.</p>
    <table class="data">
     <tbody>
      <tr>
@@ -613,7 +635,7 @@ registry editors will review and merge the pull request.</p>
      <tr>
       <td>av01.*
       <td>AV1
-      <td><a href="https://www.w3.org/TR/webcodecs-av1-codec-registration/">AV1 codec registration</a> <span>[WEBCODECS-AV1-CODEC-REGISTRATION]</span>
+      <td><a href="https://www.w3.org/TR/webcodecs-av1-codec-registration/">AV1 codec registration</a> <a data-link-type="biblio" href="#biblio-webcodecs-av1-codec-registration">[WEBCODECS-AV1-CODEC-REGISTRATION]</a>
      <tr>
       <td>avc1.*
       <td>AVC / H.264
@@ -621,44 +643,57 @@ registry editors will review and merge the pull request.</p>
      <tr>
       <td>vp8
       <td>VP8
-      <td><a href="https://www.w3.org/TR/webcodecs-vp8-codec-registration/">VP8 codec registration</a> <span>[WEBCODECS-VP8-CODEC-REGISTRATION]</span>
+      <td><a href="https://www.w3.org/TR/webcodecs-vp8-codec-registration/">VP8 codec registration</a> <a data-link-type="biblio" href="#biblio-webcodecs-vp8-codec-registration">[WEBCODECS-VP8-CODEC-REGISTRATION]</a>
      <tr>
       <td>vp09.*
       <td>VP9
-      <td><a href="https://www.w3.org/TR/webcodecs-vp9-codec-registration/">VP9 codec registration</a> <span>[WEBCODECS-VP9-CODEC-REGISTRATION]</span>
+      <td><a href="https://www.w3.org/TR/webcodecs-vp9-codec-registration/">VP9 codec registration</a> <a data-link-type="biblio" href="#biblio-webcodecs-vp9-codec-registration">[WEBCODECS-VP9-CODEC-REGISTRATION]</a>
    </table>
    <h2 class="heading settled" data-level="5" id="privacy-and-security-considerations"><span class="secno">5. </span><span class="content">Privacy and Security Considerations</span><a class="self-link" href="#privacy-and-security-considerations"></a></h2>
    <p>Please refer to the <a href="https://www.w3.org/TR/webcodecs/#privacy-considerations">Privacy Considerations</a> and <a href="https://www.w3.org/TR/webcodecs/#security-considerations">Security Considerations</a> sections in <a data-link-type="biblio" href="#biblio-webcodecs">[WEBCODECS]</a>.</p>
-   <p id="back-to-top" role="navigation"><a href="#toc"><abbr title="Back to Top">↑</abbr></a></p>
-<script src="https://www.w3.org/scripts/TR/2016/fixup.js"></script>
   </main>
+<script src="https://www.w3.org/scripts/TR/2021/fixup.js"></script>
   <h2 class="no-num no-ref heading settled" id="index"><span class="content">Index</span><a class="self-link" href="#index"></a></h2>
-  <aside class="dfn-panel" data-for="term-for-dom-audiodecoderconfig-description">
-   <a href="https://w3c.github.io/webcodecs/#dom-audiodecoderconfig-description">https://w3c.github.io/webcodecs/#dom-audiodecoderconfig-description</a><b>Referenced in:</b>
+  <aside class="dfn-panel" data-for="term-for-dictdef-audiodecoderconfig">
+   <a href="https://w3c.github.io/webcodecs/#dictdef-audiodecoderconfig">https://w3c.github.io/webcodecs/#dictdef-audiodecoderconfig</a><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-dom-audiodecoderconfig-description">1. Organization</a>
-    <li><a href="#ref-for-dom-audiodecoderconfig-description①">2. Registration Entry Requirements</a>
+    <li><a href="#ref-for-dictdef-audiodecoderconfig">2. Registration Entry Requirements</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-audio-encoder-config">
-   <a href="https://w3c.github.io/webcodecs/#audio-encoder-config">https://w3c.github.io/webcodecs/#audio-encoder-config</a><b>Referenced in:</b>
+  <aside class="dfn-panel" data-for="term-for-dictdef-audioencoderconfig">
+   <a href="https://w3c.github.io/webcodecs/#dictdef-audioencoderconfig">https://w3c.github.io/webcodecs/#dictdef-audioencoderconfig</a><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-audio-encoder-config">1. Organization</a>
-    <li><a href="#ref-for-audio-encoder-config①">2. Registration Entry Requirements</a>
+    <li><a href="#ref-for-dictdef-audioencoderconfig">2. Registration Entry Requirements</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-dom-videodecoderconfig-description">
-   <a href="https://w3c.github.io/webcodecs/#dom-videodecoderconfig-description">https://w3c.github.io/webcodecs/#dom-videodecoderconfig-description</a><b>Referenced in:</b>
+  <aside class="dfn-panel" data-for="term-for-encodedaudiochunk">
+   <a href="https://w3c.github.io/webcodecs/#encodedaudiochunk">https://w3c.github.io/webcodecs/#encodedaudiochunk</a><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-dom-videodecoderconfig-description">1. Organization</a>
-    <li><a href="#ref-for-dom-videodecoderconfig-description①">2. Registration Entry Requirements</a>
+    <li><a href="#ref-for-encodedaudiochunk">2. Registration Entry Requirements</a> <a href="#ref-for-encodedaudiochunk①">(2)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-video-encoder-config">
-   <a href="https://w3c.github.io/webcodecs/#video-encoder-config">https://w3c.github.io/webcodecs/#video-encoder-config</a><b>Referenced in:</b>
+  <aside class="dfn-panel" data-for="term-for-encodedvideochunk">
+   <a href="https://w3c.github.io/webcodecs/#encodedvideochunk">https://w3c.github.io/webcodecs/#encodedvideochunk</a><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-video-encoder-config">1. Organization</a>
-    <li><a href="#ref-for-video-encoder-config①">2. Registration Entry Requirements</a>
+    <li><a href="#ref-for-encodedvideochunk">2. Registration Entry Requirements</a> <a href="#ref-for-encodedvideochunk①">(2)</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="term-for-dictdef-videodecoderconfig">
+   <a href="https://w3c.github.io/webcodecs/#dictdef-videodecoderconfig">https://w3c.github.io/webcodecs/#dictdef-videodecoderconfig</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-dictdef-videodecoderconfig">2. Registration Entry Requirements</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="term-for-dictdef-videoencoderconfig">
+   <a href="https://w3c.github.io/webcodecs/#dictdef-videoencoderconfig">https://w3c.github.io/webcodecs/#dictdef-videoencoderconfig</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-dictdef-videoencoderconfig">2. Registration Entry Requirements</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="term-for-dom-encodedaudiochunk-type-slot">
+   <a href="https://w3c.github.io/webcodecs/#dom-encodedaudiochunk-type-slot">https://w3c.github.io/webcodecs/#dom-encodedaudiochunk-type-slot</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-dom-encodedaudiochunk-type-slot">2. Registration Entry Requirements</a>
    </ul>
   </aside>
   <h3 class="no-num no-ref heading settled" id="index-defined-elsewhere"><span class="content">Terms defined by reference</span><a class="self-link" href="#index-defined-elsewhere"></a></h3>
@@ -666,30 +701,48 @@ registry editors will review and merge the pull request.</p>
    <li>
     <a data-link-type="biblio">[WEBCODECS]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="term-for-dom-audiodecoderconfig-description">AudioDecoderConfig.description</span>
-     <li><span class="dfn-paneled" id="term-for-audio-encoder-config">AudioEncoderConfig</span>
-     <li><span class="dfn-paneled" id="term-for-dom-videodecoderconfig-description">VideoDecoderConfig.description</span>
-     <li><span class="dfn-paneled" id="term-for-video-encoder-config">VideoEncoderConfig</span>
+     <li><span class="dfn-paneled" id="term-for-dictdef-audiodecoderconfig">AudioDecoderConfig</span>
+     <li><span class="dfn-paneled" id="term-for-dictdef-audioencoderconfig">AudioEncoderConfig</span>
+     <li><span class="dfn-paneled" id="term-for-encodedaudiochunk">EncodedAudioChunk</span>
+     <li><span class="dfn-paneled" id="term-for-encodedvideochunk">EncodedVideoChunk</span>
+     <li><span class="dfn-paneled" id="term-for-dictdef-videodecoderconfig">VideoDecoderConfig</span>
+     <li><span class="dfn-paneled" id="term-for-dictdef-videoencoderconfig">VideoEncoderConfig</span>
+     <li><span class="dfn-paneled" id="term-for-dom-encodedaudiochunk-type-slot">[[type]]</span>
     </ul>
   </ul>
   <h2 class="no-num no-ref heading settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
   <h3 class="no-num no-ref heading settled" id="normative"><span class="content">Normative References</span><a class="self-link" href="#normative"></a></h3>
   <dl>
    <dt id="biblio-webcodecs">[WEBCODECS]
-   <dd>Chris Cunningham; Paul Adenot; Bernard Aboba. <a href="https://www.w3.org/TR/webcodecs/"><cite>WebCodecs</cite></a>. 20 October 2021. WD. URL: <a href="https://www.w3.org/TR/webcodecs/">https://www.w3.org/TR/webcodecs/</a>
+   <dd>Chris Cunningham; Paul Adenot; Bernard Aboba. <a href="https://www.w3.org/TR/webcodecs/"><cite>WebCodecs</cite></a>. 16 February 2022. WD. URL: <a href="https://www.w3.org/TR/webcodecs/">https://www.w3.org/TR/webcodecs/</a>
   </dl>
   <h3 class="no-num no-ref heading settled" id="informative"><span class="content">Informative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
+   <dt id="biblio-webcodecs-aac-codec-registration">[WEBCODECS-AAC-CODEC-REGISTRATION]
+   <dd>Chris Cunningham; Paul Adenot; Bernard Aboba. <a href="https://www.w3.org/TR/webcodecs-aac-codec-registration/"><cite>AAC WebCodecs Registration</cite></a>. 21 March 2022. NOTE. URL: <a href="https://www.w3.org/TR/webcodecs-aac-codec-registration/">https://www.w3.org/TR/webcodecs-aac-codec-registration/</a>
+   <dt id="biblio-webcodecs-alaw-codec-registration">[WEBCODECS-ALAW-CODEC-REGISTRATION]
+   <dd>Chris Cunningham; Paul Adenot; Bernard Aboba. <a href="https://www.w3.org/TR/webcodecs-alaw-codec-registration/"><cite>A-law PCM WebCodecs Registration</cite></a>. 21 March 2022. NOTE. URL: <a href="https://www.w3.org/TR/webcodecs-alaw-codec-registration/">https://www.w3.org/TR/webcodecs-alaw-codec-registration/</a>
+   <dt id="biblio-webcodecs-av1-codec-registration">[WEBCODECS-AV1-CODEC-REGISTRATION]
+   <dd>Chris Cunningham; Paul Adenot; Bernard Aboba. <a href="https://www.w3.org/TR/webcodecs-av1-codec-registration/"><cite>AV1 WebCodecs Registration</cite></a>. 21 March 2022. NOTE. URL: <a href="https://www.w3.org/TR/webcodecs-av1-codec-registration/">https://www.w3.org/TR/webcodecs-av1-codec-registration/</a>
    <dt id="biblio-webcodecs-avc-codec-registration">[WEBCODECS-AVC-CODEC-REGISTRATION]
-   <dd>Chris Cunningham; Paul Adenot; Bernard Aboba. <a href="https://www.w3.org/TR/webcodecs-avc-codec-registration/"><cite>AVC (H.264) WebCodecs Registration</cite></a>. 20 October 2021. WD. URL: <a href="https://www.w3.org/TR/webcodecs-avc-codec-registration/">https://www.w3.org/TR/webcodecs-avc-codec-registration/</a>
+   <dd>Chris Cunningham; Paul Adenot; Bernard Aboba. <a href="https://www.w3.org/TR/webcodecs-avc-codec-registration/"><cite>AVC (H.264) WebCodecs Registration</cite></a>. 21 March 2022. NOTE. URL: <a href="https://www.w3.org/TR/webcodecs-avc-codec-registration/">https://www.w3.org/TR/webcodecs-avc-codec-registration/</a>
+   <dt id="biblio-webcodecs-flac-codec-registration">[WEBCODECS-FLAC-CODEC-REGISTRATION]
+   <dd>Chris Cunningham; Paul Adenot; Bernard Aboba. <a href="https://www.w3.org/TR/webcodecs-flac-codec-registration/"><cite>FLAC WebCodecs Registration</cite></a>. 21 March 2022. NOTE. URL: <a href="https://www.w3.org/TR/webcodecs-flac-codec-registration/">https://www.w3.org/TR/webcodecs-flac-codec-registration/</a>
+   <dt id="biblio-webcodecs-mp3-codec-registration">[WEBCODECS-MP3-CODEC-REGISTRATION]
+   <dd>Chris Cunningham; Paul Adenot; Bernard Aboba. <a href="https://www.w3.org/TR/webcodecs-mp3-codec-registration/"><cite>MP3 WebCodecs Registration</cite></a>. 21 March 2022. NOTE. URL: <a href="https://www.w3.org/TR/webcodecs-mp3-codec-registration/">https://www.w3.org/TR/webcodecs-mp3-codec-registration/</a>
+   <dt id="biblio-webcodecs-opus-codec-registration">[WEBCODECS-OPUS-CODEC-REGISTRATION]
+   <dd>Chris Cunningham; Paul Adenot; Bernard Aboba. <a href="https://www.w3.org/TR/webcodecs-opus-codec-registration/"><cite>Opus WebCodecs Registration</cite></a>. 21 March 2022. NOTE. URL: <a href="https://www.w3.org/TR/webcodecs-opus-codec-registration/">https://www.w3.org/TR/webcodecs-opus-codec-registration/</a>
+   <dt id="biblio-webcodecs-pcm-codec-registration">[WEBCODECS-PCM-CODEC-REGISTRATION]
+   <dd>Chris Cunningham; Paul Adenot; Bernard Aboba. <a href="https://www.w3.org/TR/webcodecs-pcm-codec-registration/"><cite>Linear PCM WebCodecs Registration</cite></a>. 21 March 2022. NOTE. URL: <a href="https://www.w3.org/TR/webcodecs-pcm-codec-registration/">https://www.w3.org/TR/webcodecs-pcm-codec-registration/</a>
+   <dt id="biblio-webcodecs-ulaw-codec-registration">[WEBCODECS-ULAW-CODEC-REGISTRATION]
+   <dd>Chris Cunningham; Paul Adenot; Bernard Aboba. <a href="https://www.w3.org/TR/webcodecs-ulaw-codec-registration/"><cite>u-law PCM WebCodecs Registration</cite></a>. 21 March 2022. NOTE. URL: <a href="https://www.w3.org/TR/webcodecs-ulaw-codec-registration/">https://www.w3.org/TR/webcodecs-ulaw-codec-registration/</a>
+   <dt id="biblio-webcodecs-vorbis-codec-registration">[WEBCODECS-VORBIS-CODEC-REGISTRATION]
+   <dd>Chris Cunningham; Paul Adenot; Bernard Aboba. <a href="https://www.w3.org/TR/webcodecs-vorbis-codec-registration/"><cite>Vorbis WebCodecs Registration</cite></a>. 21 March 2022. NOTE. URL: <a href="https://www.w3.org/TR/webcodecs-vorbis-codec-registration/">https://www.w3.org/TR/webcodecs-vorbis-codec-registration/</a>
+   <dt id="biblio-webcodecs-vp8-codec-registration">[WEBCODECS-VP8-CODEC-REGISTRATION]
+   <dd>Chris Cunningham; Paul Adenot; Bernard Aboba. <a href="https://www.w3.org/TR/webcodecs-vp8-codec-registration/"><cite>VP8 WebCodecs Registration</cite></a>. 21 March 2022. NOTE. URL: <a href="https://www.w3.org/TR/webcodecs-vp8-codec-registration/">https://www.w3.org/TR/webcodecs-vp8-codec-registration/</a>
+   <dt id="biblio-webcodecs-vp9-codec-registration">[WEBCODECS-VP9-CODEC-REGISTRATION]
+   <dd>Chris Cunningham; Paul Adenot; Bernard Aboba. <a href="https://www.w3.org/TR/webcodecs-vp9-codec-registration/"><cite>VP9 WebCodecs Registration</cite></a>. 21 March 2022. NOTE. URL: <a href="https://www.w3.org/TR/webcodecs-vp9-codec-registration/">https://www.w3.org/TR/webcodecs-vp9-codec-registration/</a>
   </dl>
-  <h2 class="no-num no-ref heading settled" id="issues-index"><span class="content">Issues Index</span><a class="self-link" href="#issues-index"></a></h2>
-  <div style="counter-reset:issue">
-   <div class="issue"> Several registrations contain TODOs which should be replaced with links
-    to public specifications covering the mentioned definitions. <a class="issue-return" href="#issue-40e365ce" title="Jump to section">↵</a></div>
-   <div class="issue"> Several registrations contain TODOs which should be replaced with links
-    to public specifications covering the mentioned definitions. <a class="issue-return" href="#issue-40e365ce①" title="Jump to section">↵</a></div>
-  </div>
 <script>/* script-dfn-panel */
 
 document.body.addEventListener("click", function(e) {
