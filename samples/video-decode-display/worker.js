@@ -58,7 +58,7 @@ function start({dataUri, rendererName, canvas}) {
       break;
   }
 
-  // Set up a VideoDecoer.
+  // Set up a VideoDecoder.
   const decoder = new VideoDecoder({
     output(frame) {
       // Update statistics.
@@ -86,6 +86,9 @@ function start({dataUri, rendererName, canvas}) {
     },
     onChunk(chunk) {
       decoder.decode(chunk);
+    },
+    onEndOfStream() {
+      decoder.flush();
     },
     setStatus
   });
